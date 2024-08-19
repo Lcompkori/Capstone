@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=divice-width, initial-scale=1.0">
+        <title>Mondrian Project3</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin:100px auto 0px auto;
+                padding:20px;
+                background-color: rgb(214, 214, 209);
+            
+            }
+
+            .container {
+                display: grid;
+                background-color: black;  
+                width: 750px;
+                height: 750px;
+                
+                grid-template-columns: 50px 90px 90px 180px 100px 110px 40px;
+                grid-template-rows: 60px 170px 170px 80px 80px 55px 45px ;
+                gap: 15px;
+            }
+
+            .items {
+                background-color: aliceblue;
+
+            }
+
+            .grey1 { 
+                grid-column: span 2;
+                background-color: gray;
+            }
+
+            .white1 {
+                grid-column: span 2;
+            }
+            .yellow1 {
+                grid-column: span 2;
+                background-color: yellow;
+            }
+
+            .grey2 {
+                background-color: grey;
+                grid-row: span 4;
+            }
+
+            .red {
+                background-color: red;
+                grid-area: 2 / 2 / 4 / 5
+            }
+
+            .yellow2 {
+                background-color: yellow;
+                grid-column: span 2;
+            }
+
+            .grey3 {
+                background-color: grey;
+                grid-row: span 2;
+            }
+
+            .black1 {
+                background-color: black;
+                grid-area: 4 / 2 / 6 / 4;
+            }
+
+            .grey4 {
+                background-color: grey;
+            }
+
+            .white3 {
+                grid-column: span 2;
+            }
+
+            .yellow3 {
+                background-color: yellow;
+                grid-row: span 3;
+            }
+
+            .blue {
+                background-color: blue;
+                grid-area: 5/ 5/ 7/ 7;
+            }
+
+            .red2 {
+                background-color: red;
+                grid-row: span 3;
+            }
+
+             .white4 {
+                grid-area: 6 /2 /8/4;
+            }
+
+            .black2 {
+                background-color: black;
+            }
+
+            .white5 {
+                grid-column: span 3;
+            }
+            .bottom {
+              margin: 20px;
+              padding: 20px;
+            }
+
+              .bottom a {
+                font-family: "Montserrat";
+                text-decoration: none;
+                padding: 5px 10px;
+            border-radius: 5px;
+            border: 2px solid #2c2b30;
+            color:#2c2b30;
+            background-color: #d6d6d6;
+            transition-duration: .04s;
+            
+          }
+
+          .bottom a:hover{ 
+            background-color: #2c2b30;
+            text-decoration: none;
+            color:#d6d6d6;
+          }
+              
+              
+
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="items grey1"></div>
+            <div class="items white1"></div>
+            <div class="items yellow1"></div>
+            <div class="items grey2"></div>
+            <div class="items"></div>
+            <div class="items red"></div>
+            <div class="items yellow2"></div>
+            <div class="items grey3"></div>
+            <div class="items white2"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items black1"></div>
+            <div class="items white3"></div>
+            <div class="items yellow3"></div>
+            <div class="items"></div>
+            <div class="items blue"></div>
+            <div class="items red2"></div>
+            <div class="items white4"></div>
+            <div class="items black2"></div>
+            <div class="items white5"></div>
+            
+
+        </div>
+        <div class="bottom">
+        <a href="/Personal-site/Pages/project-page-copy.html">Back</a>
+      </div>
+    </body>
+</html>
